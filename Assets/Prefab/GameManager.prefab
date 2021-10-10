@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6023808116752588869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6023808116752588867}
+  - component: {fileID: 6023808116752588866}
+  - component: {fileID: 6023808116752588864}
+  - component: {fileID: 6023808116752588865}
+  - component: {fileID: 880573550}
+  - component: {fileID: 6023808117330435048}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6023808116752588867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023808116752588869}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2409028, y: -0.97002757, z: -7.2886276}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6023808116752588866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023808116752588869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0aca77258893514988de9f943e4ae15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 4780031921899444914, guid: 68101e0bbe14e054cbb6bd9cb8b4138c, type: 3}
+--- !u!114 &6023808116752588864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023808116752588869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3db5e7fbebd314988f194b20bba128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bagObj: {fileID: 11400000, guid: 5819f0addcd6c3a46997abc1017f426b, type: 2}
+  storageBoxObj: {fileID: 11400000, guid: a45d3d66a2f03c743a5d8f988171f55a, type: 2}
+--- !u!114 &6023808116752588865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023808116752588869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 986acc11009daec4db91a3b8744e0764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentEquipment: []
+--- !u!114 &880573550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023808116752588869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43469cdb4a0d9d4f9179f1bdeb8705a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievements:
+  - name: "\u6C34\u96FB\u5DE5\u5177\u4EBA"
+    describe: "\u767C\u96FB\u6A5F\u4FEE\u597D\u5566"
+    sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    isUnlock: 0
+    needPointToUnlock: 1
+  - name: "\u5F88\u6015\u6B7B\u9F41"
+    describe: "\u8490\u96C625\u74F6\u71DF\u990A\u6DB2"
+    sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    isUnlock: 1
+    needPointToUnlock: 0
+  - name: "\u53E4\u4ECA\u5F80\u4F86"
+    describe: "\u770B\u5B8C\u6240\u6709\u95B1\u8B80\u5668"
+    sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    isUnlock: 1
+    needPointToUnlock: 0
+  - name: "\u627E\u5230\u6211\u7238\u5ABD\u4E86"
+    describe: "\u6210\u529F\u53D6\u5F97\u5168\u5BB6\u798F"
+    sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    isUnlock: 1
+    needPointToUnlock: 0
+  - name: "\u85E5\u5291\u5BE6\u7FD2\u751F"
+    describe: "\u6253\u5B8C\u75AB\u82D7\u4E00"
+    sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    isUnlock: 1
+    needPointToUnlock: 0
+  - name: "\u85E5\u5291\u5C08\u54E1"
+    describe: "\u6253\u5B8C\u75AB\u82D7\u4E8C"
+    sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    isUnlock: 1
+    needPointToUnlock: 0
+  - name: "\u85E5\u5291\u5927\u5E2B"
+    describe: "\u6253\u5B8C\u75AB\u82D7\u4E09"
+    sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    isUnlock: 1
+    needPointToUnlock: 0
+  - name: "\u540D\u5075\u63A2"
+    describe: "\u89E3\u5B8C\u6240\u6709\u8B0E\u984C"
+    sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    isUnlock: 1
+    needPointToUnlock: 0
+  - name: "\u7B2C\u4E8C\u500B\"\u6211\""
+    describe: "\u5F97\u77E5\u81EA\u5DF1\u662F\u8907\u88FD\u4EBA"
+    sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    isUnlock: 1
+    needPointToUnlock: 0
+  achievementUI: {fileID: 2090321721, guid: 4a4196d1f16dc4a4e9f2df5bf9c7353e, type: 3}
+--- !u!114 &6023808117330435048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023808116752588869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1a041cad679eb41b9633a5e1a4df8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
