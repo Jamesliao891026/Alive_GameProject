@@ -6,6 +6,7 @@ public static class SaveSystem
 {
     public static void SavePlayer(Player player)
     {
+        player = Player.instance;
         BinaryFormatter formatter = new BinaryFormatter();
         string path = Application.persistentDataPath + "/player.txt";
         FileStream stream = new FileStream(path, FileMode.Create);

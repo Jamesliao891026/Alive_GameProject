@@ -59,6 +59,8 @@
     <Compile Include="Assets\Scripts\MainMenu\AchievementManager.cs" />
     <Compile Include="Assets\Scripts\Save System\SaveSystemUI.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Save System\PotionData.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\DialogSystem\DialogScripts\DialogNPC.cs" />
     <Compile Include="Assets\Scripts\Inventory System\Items\Scriptable\ItemDatabaseObject.cs" />
@@ -96,7 +98,9 @@
     <Compile Include="Assets\DialogSystem\Ink\Demos\Basic Demo\Scripts\QuitGameOnKeypress.cs" />
     <Compile Include="Assets\Scripts\Inventory System\Inventory\UI\InventoryUIController.cs" />
     <Compile Include="Assets\Scripts\SceneTransition\EssentialsLoader.cs" />
+    <Compile Include="Assets\Scripts\SceneTransition\Elevator.cs" />
     <Compile Include="Assets\Scripts\UI\AI_WatchUI.cs" />
+    <Compile Include="Assets\Scripts\SceneTransition\ElevatorManager.cs" />
     <Compile Include="Assets\Scripts\Save System\PlayerData.cs" />
     <Compile Include="Assets\Scripts\SceneTransition\PlayerLoader.cs" />
     <Compile Include="Assets\Scripts\Inventory System\Items\Inventory Reactions\Interactable.cs" />
@@ -106,7 +110,6 @@
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Inventory System\Inventory\UI\StaticInterface.cs" />
     <Compile Include="Assets\Scripts\Camera\RoomMove.cs" />
-    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

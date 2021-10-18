@@ -13,8 +13,7 @@ public class Interactable : MonoBehaviour
     {
         if (isFocus)
         {
-            float distance = Vector2.Distance(player.position, interactionTransform.position);
-            if (!hasInteracted && distance <= radius)
+            if (!hasInteracted )
             {
                 hasInteracted = true;
                 Interact();
@@ -50,4 +49,10 @@ public class Interactable : MonoBehaviour
         Gizmos.color = Color.green;
         Gizmos.DrawSphere(interactionTransform.position, radius);
     }
+}
+
+public interface InteractableInterface
+{
+    void Update();
+    void Interact();
 }

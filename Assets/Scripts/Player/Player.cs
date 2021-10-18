@@ -7,7 +7,6 @@ public class Player : MonoBehaviour
     public static float nowHealth;
     public static float vaccineNum;
 
-    [HideInInspector]
     public string areaTransitionName;
     public static Player instance;
 

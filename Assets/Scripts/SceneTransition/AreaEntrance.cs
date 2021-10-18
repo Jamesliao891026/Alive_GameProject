@@ -10,7 +10,7 @@ public class AreaEntrance : MonoBehaviour
     {
         if(transitionName == Player.instance.areaTransitionName)
         {
-            Player.instance.transform.position = transform.position;
+            Player.instance.gameObject.transform.position = transform.position;
         }
     }
 }

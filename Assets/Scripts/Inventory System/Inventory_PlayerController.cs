@@ -9,25 +9,30 @@ public class Inventory_PlayerController : MonoBehaviour
     public Transform detactionPoint;
     public float detactionRadius = 0.2f;
     public LayerMask detactionLayer;
-    
+
+
     void Update()
     {
         if (EventSystem.current.IsPointerOverGameObject())
             return;
 
-        if (Input.GetKeyDown(KeyCode.B))
+        if(Input.GetKeyDown(KeyCode.B))
         {
-            Collider2D obj = Physics2D.OverlapCircle(detactionPoint.position, detactionRadius, detactionLayer);
-            if(obj == null)
-            {
-                Debug.Log("No object !");
-                RemoveFocus();
-            }
-            else
-            {
-                Interactable interactable = obj.GetComponent<Interactable>();
-                SetFocus(interactable);
-            }
+            OnTriggerInteract();
+        }    
+    }
+    void OnTriggerInteract()
+    {
+        Collider2D obj = Physics2D.OverlapCircle(detactionPoint.position, detactionRadius, detactionLayer);
+        if (obj == null)
+        {
+            Debug.Log("No object !");
+            RemoveFocus();
+        }
+        else
+        {
+            Interactable interactable = obj.GetComponent<Interactable>();
+            SetFocus(interactable);
         }
     }
 

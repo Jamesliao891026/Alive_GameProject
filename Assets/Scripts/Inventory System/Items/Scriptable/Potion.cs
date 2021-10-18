@@ -6,6 +6,7 @@ using UnityEngine;
 public class Potion : ItemObject
 {
     public int restoreHealthValue;
+    public bool PotionExist = true; // 該物品是否還存在
     public override void Use()
     {
         base.Use();

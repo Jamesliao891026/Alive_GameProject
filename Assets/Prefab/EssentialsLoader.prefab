@@ -46,3 +46,4 @@ MonoBehaviour:
   player: {fileID: 4780031921899444940, guid: 68101e0bbe14e054cbb6bd9cb8b4138c, type: 3}
   gameManager: {fileID: 6023808116752588869, guid: eaa5276fbee462d40b3c921e59d85278, type: 3}
   uiManager: {fileID: 5449195452509057232, guid: 52eeb01cfafc27745a2a57bdb27c15af, type: 3}
+  previousSceneName: 
