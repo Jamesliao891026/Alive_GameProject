@@ -43,10 +43,11 @@ public abstract class UserInterface : MonoBehaviour
             }
             else
             {
-                if (inventoryObj.container.items[i].item == null)
-                {
-                    slots[i].ClearSlot();
-                }
+                slots[i].ClearSlot();
+                //if (inventoryObj.container.items[i].item == null)
+                //{
+                //    slots[i].ClearSlot();
+                //}
             }
         }
     }

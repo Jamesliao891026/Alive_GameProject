@@ -15,11 +15,11 @@ C:/James_Tools/unity/CollabTeest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58703
+55982
 Successfully changed project path to: C:/James_Tools/unity/CollabTeest
 C:/James_Tools/unity/CollabTeest
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 60.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -35,39 +35,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003396 seconds.
+Registered in 0.002834 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 56.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 136.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.308 seconds
+- Completed reload, in  5.970 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2308ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (5970ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (518ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
+			SetupTypeCache (182ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (194ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (288ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (57ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (82ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (137ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (92ms)
 				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,52 +75,52 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003973 seconds.
+Registered in 0.011822 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 50.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 54.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.281 seconds
+- Completed reload, in  1.392 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1282ms)
-		BeginReloadAssembly (165ms)
+	ReloadAssembly (1393ms)
+		BeginReloadAssembly (168ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1046ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1154ms)
+			LoadAssemblies (162ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (337ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (404ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (412ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (51ms)
+				RefreshPlugins (54ms)
 				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadAttributes (236ms)
 				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2277 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 102.7 MB.
 System memory in use after: 102.9 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2716.
-Total: 3.581100 ms (FindLiveObjects: 0.268800 ms CreateObjectMapping: 0.116200 ms MarkObjects: 3.111400 ms  DeleteObjects: 0.083400 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2718.
+Total: 4.294400 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.088800 ms MarkObjects: 3.852500 ms  DeleteObjects: 0.104400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,412 +134,65 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Art/Items/父母筆記本-解謎道具/父母筆記本_20210906170342.png
-  artifactKey: Guid(c481ce492b76837489041751b9598564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Items/父母筆記本-解謎道具/父母筆記本_20210906170342.png using Guid(c481ce492b76837489041751b9598564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180bd5b732b126ae04a62e645a564288') in 0.178311 seconds 
-  Import took 0.184473 seconds .
+  path: Assets/Scenes/testScenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/testScenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a54da000afb64190840ea567ee70bc') in 0.039058 seconds 
+  Import took 0.043042 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Art/Items/父母筆記本-解謎道具/筆記本內頁_最末頁.png
-  artifactKey: Guid(d94b1dace477b324491ba8997140fe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Items/父母筆記本-解謎道具/筆記本內頁_最末頁.png using Guid(d94b1dace477b324491ba8997140fe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02a084843eeaddfa5cb3b4654ff5276') in 0.057614 seconds 
-  Import took 0.062890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.097276 seconds.
-  path: Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-1.png
-  artifactKey: Guid(9383a1f0c1eb41d41a4c36df3e998ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-1.png using Guid(9383a1f0c1eb41d41a4c36df3e998ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399ab405970f57e78db93341c5ba1f6f') in 0.076753 seconds 
-  Import took 0.082099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.318350 seconds.
-  path: Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-3.png
-  artifactKey: Guid(d7cc8376e556f2b4f96bfc03bab88a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-3.png using Guid(d7cc8376e556f2b4f96bfc03bab88a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116401fee50249a5bcd1a6d62f11327b') in 0.071383 seconds 
-  Import took 0.075690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.942712 seconds.
-  path: Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-7.png
-  artifactKey: Guid(74bdbf70faff13a4ebb019d93390d93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-7.png using Guid(74bdbf70faff13a4ebb019d93390d93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7066f5ee25c3d890bc46c4093c77aed') in 0.066777 seconds 
-  Import took 0.072427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.330457 seconds.
-  path: Assets/Art/Puzzle/供電室_接電線關卡/供電室接電線關卡（示意圖）.png
-  artifactKey: Guid(40a46e6f5e0157c4badee6570eacf830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/供電室_接電線關卡/供電室接電線關卡（示意圖）.png using Guid(40a46e6f5e0157c4badee6570eacf830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6dbdf7301373db8f0f13889ebcc395') in 0.088030 seconds 
-  Import took 0.093192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.557075 seconds.
-  path: Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-4.png
-  artifactKey: Guid(9beac36a8e738864fb7511030cd0482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-4.png using Guid(9beac36a8e738864fb7511030cd0482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4769f351b7429c028e7665f0fac19019') in 0.071646 seconds 
-  Import took 0.078174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.594794 seconds.
-  path: Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-11.png
-  artifactKey: Guid(833ec2fe4b42a73439f9dd03f82506c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-11.png using Guid(833ec2fe4b42a73439f9dd03f82506c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9f7ef240e88fa8c1e29dcbe7701f01') in 0.070320 seconds 
-  Import took 0.075423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.483681 seconds.
-  path: Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-10.png
-  artifactKey: Guid(36cfdde898fc5b24e8006de479825698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-10.png using Guid(36cfdde898fc5b24e8006de479825698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dc472a7f4e4b7ef9b85b1451931ee2') in 0.066626 seconds 
-  Import took 0.071447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.571326 seconds.
-  path: Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-8.png
-  artifactKey: Guid(6256aa3c8da58a74ba814fb8d889001b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-8.png using Guid(6256aa3c8da58a74ba814fb8d889001b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f1c2004e3e3a1722feb97442a905cc') in 0.068699 seconds 
-  Import took 0.075352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.570303 seconds.
-  path: Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-12.png
-  artifactKey: Guid(6d82000e0f220504a8969cab5c194f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-12.png using Guid(6d82000e0f220504a8969cab5c194f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21566da2f934a11a058e11784f31ee87') in 0.072469 seconds 
-  Import took 0.078328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.395727 seconds.
-  path: Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-15.png
-  artifactKey: Guid(ce5395842a4b98041a32fd7cd4a7df18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-15.png using Guid(ce5395842a4b98041a32fd7cd4a7df18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eadccea0967b5460471de56782bfe0a') in 0.065867 seconds 
-  Import took 0.072176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.921774 seconds.
-  path: Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-22.png
-  artifactKey: Guid(8329e8eefd29bf349bf721067d598dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-22.png using Guid(8329e8eefd29bf349bf721067d598dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa83fc43f79fce695c5a994fcf996c6') in 0.068309 seconds 
-  Import took 0.078571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.413029 seconds.
-  path: Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-24.png
-  artifactKey: Guid(6ed0df4186eb6e14e9537617d37cf729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-24.png using Guid(6ed0df4186eb6e14e9537617d37cf729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823808a5871d8a3e3fddcecc2d91a739') in 0.067261 seconds 
-  Import took 0.071972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.317811 seconds.
-  path: Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-26.png
-  artifactKey: Guid(d71e83761c8f91a4fa635cdd9bd8d598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-26.png using Guid(d71e83761c8f91a4fa635cdd9bd8d598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b4b998c25909d22390226b110721d1') in 0.069654 seconds 
-  Import took 0.074483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.502445 seconds.
-  path: Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-21.png
-  artifactKey: Guid(9af582bf81f2f7f44b08eab2aa75b133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/供電室_接電線關卡/未命名的作品-21.png using Guid(9af582bf81f2f7f44b08eab2aa75b133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88127ad26e6fc0c80afcf3b2cfeb4757') in 0.065068 seconds 
-  Import took 0.070978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.585754 seconds.
-  path: Assets/Art/Puzzle/發電機-第二道謎題/發電機-連連看_20210906163903.png
-  artifactKey: Guid(c005ec6477c6e7f429cb291604339152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/發電機-第二道謎題/發電機-連連看_20210906163903.png using Guid(c005ec6477c6e7f429cb291604339152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a62e17d1cfc275c3aa29c456b82422') in 0.047158 seconds 
-  Import took 0.052436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.695228 seconds.
-  path: Assets/Art/Puzzle/發電機-第二道謎題/發電機-連連看_(正解示意圖(未畫線)).png
-  artifactKey: Guid(b359ab35fd609aa488ff2a5b98ada47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/發電機-第二道謎題/發電機-連連看_(正解示意圖(未畫線)).png using Guid(b359ab35fd609aa488ff2a5b98ada47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a314f858415ed24b95c928279e9d2af8') in 0.049083 seconds 
-  Import took 0.055245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.596605 seconds.
-  path: Assets/Art/Puzzle/發電機-第二道謎題/發電機-連連看_20210906164022.png
-  artifactKey: Guid(50182348222d07d418fe5722ae72b3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/發電機-第二道謎題/發電機-連連看_20210906164022.png using Guid(50182348222d07d418fe5722ae72b3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce9154069319526d1851f7d0251cd6d') in 0.044228 seconds 
-  Import took 0.049386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.676208 seconds.
-  path: Assets/Art/Puzzle/發電機-第二道謎題/發電機-連連看_20210906163925.png
-  artifactKey: Guid(45c63da6a389e6443ac4fca150f26700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Puzzle/發電機-第二道謎題/發電機-連連看_20210906163925.png using Guid(45c63da6a389e6443ac4fca150f26700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ce49089712ab94c0cf65eae253b144') in 0.045015 seconds 
-  Import took 0.049826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1149.517399 seconds.
-  path: Assets/Art/Items/父母筆記本-解謎道具/筆記本內頁_翻頁1+2(供參考，可用可不用).png
-  artifactKey: Guid(a7a4185d9a9fd574199122ae57277b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Items/父母筆記本-解謎道具/筆記本內頁_翻頁1+2(供參考，可用可不用).png using Guid(a7a4185d9a9fd574199122ae57277b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f053592cd811385b093e445c5f8cd71') in 0.046779 seconds 
-  Import took 0.052130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.714035 seconds.
-  path: Assets/Art/Items/父母筆記本-解謎道具/筆記本內頁_翻頁1.png
-  artifactKey: Guid(3c1b83dfcbcb4dc4e95705de2f0cb9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Items/父母筆記本-解謎道具/筆記本內頁_翻頁1.png using Guid(3c1b83dfcbcb4dc4e95705de2f0cb9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4641e0a813e97e800b601ff97addb11e') in 0.045798 seconds 
-  Import took 0.050900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.552610 seconds.
-  path: Assets/Art/Items/父母筆記本-解謎道具/筆記本內頁_翻頁2.png
-  artifactKey: Guid(dc2853e0c5161c64b83f420be8a2e811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Items/父母筆記本-解謎道具/筆記本內頁_翻頁2.png using Guid(dc2853e0c5161c64b83f420be8a2e811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f31e1725be5c06ba3fe4f663412340') in 0.044889 seconds 
-  Import took 0.049359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.510651 seconds.
-  path: Assets/Art/Items/父母筆記本-解謎道具/筆記本內頁_首頁.png
-  artifactKey: Guid(68941f1963e6410459bb6d3928383e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Items/父母筆記本-解謎道具/筆記本內頁_首頁.png using Guid(68941f1963e6410459bb6d3928383e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9368e6e33652995ead443a7b38d43244') in 0.046027 seconds 
-  Import took 0.051185 seconds .
+  Time since last request: 0.042118 seconds.
+  path: Assets/Scenes/testScenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/testScenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a54da000afb64190840ea567ee70bc') in 0.037176 seconds 
+  Import took 0.041043 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005188 seconds.
+Registered in 0.005247 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
+- Completed reload, in  1.698 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1146ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (946ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (329ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (344ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (229ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.9 MB.
-System memory in use after: 104.1 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2727.
-Total: 3.675800 ms (FindLiveObjects: 0.254400 ms CreateObjectMapping: 0.108900 ms MarkObjects: 3.288100 ms  DeleteObjects: 0.023200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005491 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.515 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1515ms)
-		BeginReloadAssembly (155ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1254ms)
-			LoadAssemblies (137ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (459ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (432ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (123ms)
-				ProcessInitializeOnLoadAttributes (281ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.9 MB.
-System memory in use after: 104.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2730.
-Total: 4.380400 ms (FindLiveObjects: 0.294900 ms CreateObjectMapping: 0.134200 ms MarkObjects: 3.924700 ms  DeleteObjects: 0.025200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003840 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.461 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1461ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1249ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (359ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (538ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (137ms)
-				ProcessInitializeOnLoadAttributes (364ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.0 MB.
-System memory in use after: 104.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2733.
-Total: 4.926900 ms (FindLiveObjects: 0.421300 ms CreateObjectMapping: 0.236800 ms MarkObjects: 4.234100 ms  DeleteObjects: 0.032100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004885 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.791 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1791ms)
-		BeginReloadAssembly (184ms)
+	ReloadAssembly (1698ms)
+		BeginReloadAssembly (191ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1505ms)
-			LoadAssemblies (157ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1411ms)
+			LoadAssemblies (168ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (499ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (569ms)
+			SetupTypeCache (494ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (504ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (142ms)
-				ProcessInitializeOnLoadAttributes (386ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (346ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.0 MB.
-System memory in use after: 104.2 MB.
+Unloading 2254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.0 MB.
+System memory in use after: 101.2 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2736.
-Total: 5.757000 ms (FindLiveObjects: 0.458700 ms CreateObjectMapping: 0.273400 ms MarkObjects: 4.993200 ms  DeleteObjects: 0.029600 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2721.
+Total: 4.734600 ms (FindLiveObjects: 0.350700 ms CreateObjectMapping: 0.208000 ms MarkObjects: 4.153200 ms  DeleteObjects: 0.020600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -552,60 +205,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005771 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.731 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1731ms)
-		BeginReloadAssembly (214ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1392ms)
-			LoadAssemblies (191ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (506ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (473ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.9 MB.
-System memory in use after: 104.1 MB.
+Received Import Request.
+  Time since last request: 140.998633 seconds.
+  path: Assets/Prefab/UIRoot.prefab
+  artifactKey: Guid(52eeb01cfafc27745a2a57bdb27c15af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UIRoot.prefab using Guid(52eeb01cfafc27745a2a57bdb27c15af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17c8973f7a4ebe22566de48331b6974') in 0.222951 seconds 
+  Import took 0.228055 seconds .
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2739.
-Total: 4.869600 ms (FindLiveObjects: 0.286600 ms CreateObjectMapping: 0.117800 ms MarkObjects: 4.434200 ms  DeleteObjects: 0.029400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

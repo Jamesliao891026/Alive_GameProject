@@ -96,7 +96,7 @@ public class PlayerState : MonoBehaviour
         }
     }
     // use health potion
-    public void Heal(int amount)
+    public void Heal(float amount)
     {
         Player.nowHealth += amount;
         if (Player.nowHealth > maxHealth)
@@ -105,7 +105,7 @@ public class PlayerState : MonoBehaviour
         }
     }
     // check for nowHealth
-    public bool HealthEnough(int amount)
+    public bool HealthEnough(float amount)
     {
         float healing = Player.nowHealth + amount;
         if (healing > maxHealth)
@@ -116,5 +116,6 @@ public class PlayerState : MonoBehaviour
         {
             return false;
         }
+        
     }
 }

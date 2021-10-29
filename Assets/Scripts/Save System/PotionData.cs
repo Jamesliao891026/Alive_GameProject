@@ -8,6 +8,6 @@ public class PotionData
     public bool ifExist;
     public PotionData(Potion potion)
     {
-        ifExist = potion.PotionExist;
+
     }
 }

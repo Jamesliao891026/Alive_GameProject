@@ -6,6 +6,8 @@ public class ItemObject : ScriptableObject
     new public string name = "new Item";
     public ItemType type;
     public Sprite icon = null;
+    public bool itemExist = true;
+    
 
     [TextArea(15, 20)]
     public string itemDescription;
