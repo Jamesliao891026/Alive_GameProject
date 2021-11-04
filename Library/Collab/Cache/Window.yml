@@ -14,8 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - "Assets/Art/Environment/\u7236\u6BCD\u5BE6\u9A57\u5BA4\uFF08\u542B\u9580\uFF09/\u672A\u547D\u540D\u7684\u4F5C\u54C1-2.png.meta"
+    - "Assets/Art/Environment/\u7236\u6BCD\u5BE6\u9A57\u5BA4\uFF08\u542B\u9580\uFF09/\u672A\u547D\u540D\u7684\u4F5C\u54C1-3.png"
+    - "Assets/Art/Environment/\u7236\u6BCD\u5BE6\u9A57\u5BA4\uFF08\u542B\u9580\uFF09/\u9580/\u672A\u547D\u540D\u7684\u4F5C\u54C1-2.png.meta"
+    - "Assets/Art/Puzzle/\u7B2C\u4E00\u95DC/\u8907\u88FD\u4EBA\u6210\u9577\u7D00\u9304/\u8907\u88FD\u4EBA\u6210\u9577\u7D00\u9304_\u6E05\u6670\u7248.png"
+    - Assets/Scripts/MainMenu/AudioManager.cs
+    - Assets/Scripts/UI.meta
+    - ProjectSettings/ProjectVersion.txt
     - 
-    m_Values: 01
+    m_Values: 0000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

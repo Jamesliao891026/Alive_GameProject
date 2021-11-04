@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\UI\UIManager.cs" />
     <Compile Include="Assets\Scripts\Save System\PotionData.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Inventory System\Inventory\UI\ReminderText.cs" />
     <Compile Include="Assets\DialogSystem\DialogScripts\DialogNPC.cs" />
     <Compile Include="Assets\Scripts\Inventory System\Items\Scriptable\ItemDatabaseObject.cs" />
     <Compile Include="Assets\Scripts\Inventory System\Items\Scriptable\ItemObject.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="Assets\Scripts\Inventory System\Items\Inventory Reactions\ItemPickup.cs" />
     <Compile Include="Assets\Scripts\SceneTransition\AreaEntrance.cs" />
     <Compile Include="Assets\DialogSystem\Ink\Demos\Basic Demo\Scripts\BasicInkExample.cs" />
+    <Compile Include="Assets\Scripts\Inventory System\Inventory\UI\BagUpDown.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerState.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\Inventory System\EquipmentManager.cs" />
@@ -110,8 +112,7 @@
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Inventory System\Inventory\UI\StaticInterface.cs" />
     <Compile Include="Assets\Scripts\Camera\RoomMove.cs" />
-    <Compile Include="Assets\Scripts\Inventory System\Inventory\UI\ReminderText.cs" />
-    <Compile Include="Assets\Scripts\Inventory System\Inventory\UI\BagUpDown.cs" />
+    <Compile Include="Assets\Scripts\Sound.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

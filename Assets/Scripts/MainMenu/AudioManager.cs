@@ -1,73 +1,53 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.Audio;
+using System;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-	float masterVolumePercent = .2f;
-	float sfxVolumePercent = 1;
-	float musicVolumePercent = 1f;
+	public Sound[] sounds;
 
-	AudioSource[] musicSources;
-	int activeMusicSourceIndex;
+    // 靜態音頻管理器
+    public static AudioManager instance;
 
-	public static AudioManager instance;
+    void Awake()
+    {
+        // 判斷原本是否有音樂在播放
+        if (instance == null)
+        {
+            instance = this;
+        } else
+        {
+            Destroy(gameObject);
+            return;
+        }
+        // 切換場景音樂不間斷
+        DontDestroyOnLoad(gameObject);
+        foreach (Sound s in sounds)
+        {
+            // 將新的音源組件設定為當前正在查看的音源
+            s.source = gameObject.AddComponent<AudioSource>();
+            s.source.clip = s.clip;
 
-	Transform audioListener;
-	Transform playerT;
+            s.source.volume = s.volume;
+            s.source.pitch = s.pitch;
+            s.source.loop = s.loop; // 主題循環
+        }
+    }
+    void Start()
+    {
+        //AudioManager.instance.Play();
+        // FindObjectOfType<AudioManager>().Play("PlayerDeath");
+    }
 
-	void Awake()
-	{
-
-		instance = this;
-
-		musicSources = new AudioSource[2];
-		for (int i = 0; i < 2; i++)
-		{
-			GameObject newMusicSource = new GameObject("Music source " + (i + 1));
-			musicSources[i] = newMusicSource.AddComponent<AudioSource>();
-			newMusicSource.transform.parent = transform;
-		}
-
-		audioListener = FindObjectOfType<AudioListener>().transform;
-		//playerT = FindObjectOfType<Player>().transform;
-	}
-
-	void Update()
-	{
-		if (playerT != null)
-		{
-			audioListener.position = playerT.position;
-		}
-	}
-
-	public void PlayMusic(AudioClip clip, float fadeDuration = 1)
-	{
-		activeMusicSourceIndex = 1 - activeMusicSourceIndex;
-		musicSources[activeMusicSourceIndex].clip = clip;
-		musicSources[activeMusicSourceIndex].Play();
-
-		StartCoroutine(AnimateMusicCrossfade(fadeDuration));
-	}
-
-	public void PlaySound(AudioClip clip, Vector3 pos)
-	{
-		if (clip != null)
-		{
-			AudioSource.PlayClipAtPoint(clip, pos, sfxVolumePercent * masterVolumePercent);
-		}
-	}
-
-	IEnumerator AnimateMusicCrossfade(float duration)
-	{
-		float percent = 0;
-
-		while (percent < 1)
-		{
-			percent += Time.deltaTime * 1 / duration;
-			musicSources[activeMusicSourceIndex].volume = Mathf.Lerp(0, musicVolumePercent * masterVolumePercent, percent);
-			musicSources[1 - activeMusicSourceIndex].volume = Mathf.Lerp(musicVolumePercent * masterVolumePercent, 0, percent);
-			yield return null;
-		}
-	}
+    // 播放音源
+    public void Play(string name)
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        if (s == null)
+        {
+            Debug.LogWarning("Sound: " + name + " not found!");
+            return;
+        }
+        s.source.Play();
+    }
 }

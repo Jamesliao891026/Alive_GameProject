@@ -8,7 +8,6 @@ public class Menu : MonoBehaviour
 {
 	public GameObject mainMenuHolder;
 	public GameObject optionsMenuHolder;
-	public GameObject achievementUI;
 
 	public Slider[] volumeSliders;
 	public Toggle[] resolutionToggles;
@@ -36,7 +35,7 @@ public class Menu : MonoBehaviour
 
 	public void Play()
 	{
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+		SceneManager.LoadScene("Game");
 	}
 
 	public void Quit()
@@ -58,8 +57,8 @@ public class Menu : MonoBehaviour
 
 	public void Achievement()
 	{
-		achievementUI.SetActive(true);
-	}
+		//
+    }
 
 	public void Continue()
     {
